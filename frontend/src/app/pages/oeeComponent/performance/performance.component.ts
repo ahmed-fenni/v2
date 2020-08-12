@@ -45,11 +45,7 @@ export class PerformanceComponent  {
           type: 'number',
           filter: false
         },
-         runTime: {
-          title: 'Run Time',
-          type: 'number',
-          filter: false
-        },
+         
         plannedProdTime: {
           title: 'Performance In (%)',
           type: 'number',

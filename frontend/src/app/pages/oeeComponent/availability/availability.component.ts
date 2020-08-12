@@ -40,11 +40,7 @@ export class AvailabilityComponent  {
           type: 'number',
           filter: false
         },
-        runTime: {
-          title: 'Stop Time',
-          type: 'number',
-          filter: false
-        },
+        
         goodPartsProduced: {
           title: 'Run Time',
           type: 'number',

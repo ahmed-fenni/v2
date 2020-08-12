@@ -13,14 +13,14 @@ router.get('/', (req, res) => {
             
             
           ]).then(result => {
-              
+              console.log(result)
               let total = []
               for(let i = 0;i<result.length;i++ ){
                   for(let j = 0 ; j<helper.length;j++){
                      // console.log(result[i]._id)
                       if(result[i]._id===helper[j].machine){
                           
-                          helper[j]["runTime"] = result[i].stopTime
+                          helper[j]['runTime']= result[i].stopTime
                           total.push(helper[j]) 
                          
                       }
@@ -45,7 +45,7 @@ router.get('/', (req, res) => {
             
             return result
         }).then (result => {
-
+               console.log(result)
             res.send(result)})
         })
 

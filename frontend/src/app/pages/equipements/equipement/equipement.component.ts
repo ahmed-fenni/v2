@@ -200,7 +200,7 @@ console.log("Client-side error occured.");
 console.log("Server-side error occured.");
 }
 });
-location.reload()
+//location.reload()
   } else {
     event.confirm.reject();
   }
